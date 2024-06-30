@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import classes from '@/components/Resume/Education/style.module.css';
 
 export const EDUCATION = [
     {
@@ -16,7 +17,7 @@ export const EDUCATION = [
             src='/images/University.jpg'
             width={55}
             height={55}
-            style={{ transform: 'translate(2.5px, 6px)', objectFit: "contain" }}
+            className={classes.univercityLogo}
         />,
     },
     {
@@ -31,7 +32,7 @@ export const EDUCATION = [
             src='/images/Military.jpg'
             width={55}
             height={55}
-            style={{ transform: 'translate(2.5px, 6px)', objectFit: "contain" }}
+            className={classes.univercityLogo}
         />
     },
 ];

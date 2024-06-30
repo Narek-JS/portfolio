@@ -59,7 +59,7 @@ export const INFO_ITEMS = [
     },
     {
         name: WORDS.EMAIL,
-        value: <Link href={`malito:${WORDS.EMAIL_ADDRESS}`}>{WORDS.EMAIL_ADDRESS}</Link>,
+        value: <Link href={`mailto:${WORDS.EMAIL_ADDRESS}`}>{WORDS.EMAIL_ADDRESS}</Link>,
         icon: <svg
             stroke="currentColor"
             fill="currentColor"

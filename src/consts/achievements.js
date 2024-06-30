@@ -1,6 +1,7 @@
 
 import Image from 'next/image';
- 
+import classes from '@/components/Resume/Achievements/style.module.css';
+
 export const ACHIEVEMENTS = [
     {
         contentStyle:{ background: 'nune', border:'2px solid rgba(46,202,127)' },
@@ -23,7 +24,7 @@ export const ACHIEVEMENTS = [
             src='/images/logixLogo.png'
             width={55}
             height={55}
-            style={{ transform: 'translate(2.5px, 6px)' }}
+            className={classes.companyLogo}
         />,
     },
     {
@@ -45,7 +46,7 @@ export const ACHIEVEMENTS = [
             src='/images/iguan-logo.png'
             width={55}
             height={55}
-            style={{ transform: 'translate(2.5px, 6px)', objectFit: "contain" }}
+            className={classes.companyLogo}
         />,
     },
     {
@@ -65,7 +66,7 @@ export const ACHIEVEMENTS = [
             src='/images/codeTimeLogo.png'
             width={55}
             height={55}
-            style={{ transform: 'translate(2.5px, 6px)' }}
+            className={classes.companyLogo}
         />,
     }
 ];
