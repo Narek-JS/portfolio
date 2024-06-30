@@ -15,5 +15,5 @@
 .divInShadow{
     height: 10px;
     --tw-bg-opacity: 1;
-    background-color: #005900 rgba(46,202,127,var(--tw-bg-opacity));
+    background-color: rgba(46,202,127,var(--tw-bg-opacity));
 }
