@@ -16,7 +16,7 @@
 }
 .skillsText{
     --tw-text-opacity: 1;
-    color: rgba(46,202,127,var(--tw-text-opacity));
+    color: #005900;
 }
 .padding20{
     padding-bottom: 20px;

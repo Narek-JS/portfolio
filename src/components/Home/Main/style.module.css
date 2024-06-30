@@ -2,7 +2,7 @@
     width: 100%;
     border: 1px solid white;
     border-radius: 15px 15px 0 0;
-    background-color: rgba(46,202,127);
+    background-color: #005900;
     background-image: url('../../../assets/images/bgImages1.webp');
     --webkit-background-size: cover;
     background-position: center;

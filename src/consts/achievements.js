@@ -4,8 +4,8 @@ import classes from '@/components/Resume/Achievements/style.module.css';
 
 export const ACHIEVEMENTS = [
     {
-        contentStyle:{ background: 'nune', border:'2px solid rgba(46,202,127)' },
-        contentArrowStyle: { borderRight: '7px solid  rgba(46,202,127)' },
+        contentStyle:{ background: 'nune', border:'2px solid #005900' },
+        contentArrowStyle: { borderRight: '7px solid  #005900' },
         iconStyle:{ background: '#FFFFFF', color: '#fff' },
         name: 'Logix Software',
         date: <span> &nbsp; 22.02.2023 - present</span>,
@@ -28,8 +28,8 @@ export const ACHIEVEMENTS = [
         />,
     },
     {
-        contentStyle:{ background: 'nune', border:'2px solid rgba(46,202,127)' },
-        contentArrowStyle: { borderRight: '7px solid  rgba(46,202,127)' },
+        contentStyle:{ background: 'nune', border:'2px solid #005900' },
+        contentArrowStyle: { borderRight: '7px solid  #005900' },
         iconStyle:{ background: '#FFFFFF', color: '#fff' },
         name: 'Iguan Systems',
         date: <span> 10.01.2022 - 22.02.2023 &nbsp;</span>,
@@ -50,8 +50,8 @@ export const ACHIEVEMENTS = [
         />,
     },
     {
-        contentStyle:{ background: 'nune', border:'2px solid rgba(46,202,127)' },
-        contentArrowStyle: { borderRight: '7px solid  rgba(46,202,127)' },
+        contentStyle:{ background: 'nune', border:'2px solid #005900' },
+        contentArrowStyle: { borderRight: '7px solid  #005900' },
         iconStyle:{ background: '#FFFFFF', color: '#fff' },
         name: 'CodeTime',
         date: <span> &nbsp; 01.02.2021 - 10.01.2022</span>,

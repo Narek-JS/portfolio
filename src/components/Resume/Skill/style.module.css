@@ -15,5 +15,5 @@
 .divInShadow{
     height: 10px;
     --tw-bg-opacity: 1;
-    background-color: rgba(46,202,127,var(--tw-bg-opacity));
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,89,0,1) 100%);
 }

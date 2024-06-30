@@ -3,8 +3,8 @@ import classes from '@/components/Resume/Education/style.module.css';
 
 export const EDUCATION = [
     {
-        contentStyle:{ background: 'nune', border:'2px solid rgba(46,202,127)' },
-        contentArrowStyle: { borderRight: '7px solid  rgba(46,202,127)' },
+        contentStyle:{ background: 'nune', border:'2px solid #005900' },
+        contentArrowStyle: { borderRight: '7px solid  #005900' },
         iconStyle:{ background: '#FFFFFF', color: '#fff' },
         name:'Faculty of Finance',
         date: <span>&nbsp; 2018 - 2023</span>,
@@ -21,8 +21,8 @@ export const EDUCATION = [
         />,
     },
     {
-        contentStyle:{ background: 'nune', border:'2px solid rgba(46,202,127)' },
-        contentArrowStyle: { borderRight: '7px solid  rgba(46,202,127)' },
+        contentStyle:{ background: 'nune', border:'2px solid #005900' },
+        contentArrowStyle: { borderRight: '7px solid  #005900' },
         iconStyle: { background: '#FFFFFF', color: '#fff' },
         name: 'Military service',
         date: <span>2019 - 2021 &nbsp;</span>,
