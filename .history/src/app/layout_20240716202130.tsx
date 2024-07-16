@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     type: "website",
     title: "Portfolio",
     description: "Javascript software enginer Narek Petrosyan",
-    images: ['myImage.jpg']
+    images: ['../assets/images/myImage.jpg']
   }
 };
 
