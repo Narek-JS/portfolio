@@ -6,8 +6,14 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Resume",
-  description: "Generated Portfolio app next JS",
+  title: "Portfolio",
+  description: "Javascript software enginer Narek Petrosyan",
+  openGraph: {
+    type: "website",
+    title: "Portfolio",
+    description: "Javascript software enginer Narek Petrosyan",
+    images: ['myImage.jpg']
+  }
 };
 
 const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => (
